@@ -1,14 +1,18 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Trade with Gautam Jhaa🫆</title>
+<meta name="theme-color" content="#050a10">
+
+<title>Trade with Gautam Jhaa | Market Education</title>
+<meta name="description" content="Explore stock market education, technical analysis, trading concepts and market learning with Gautam Jhaa.">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
-<style>
-</style>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
 
 <!-- Meta Pixel Code -->
 <script>
@@ -20,109 +24,970 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '967042245865148');
+fbq('init', '4604940916500328');
 fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=967042245865148&ev=PageView&noscript=1"
+src="https://www.facebook.com/tr?id=4604940916500328&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
+<style>
+:root {
+  --bg: #050a10;
+  --card: #0b141e;
+  --card2: #101c27;
+  --green: #00e58a;
+  --cyan: #31c7ff;
+  --white: #f5f8fc;
+  --muted: #94a3b3;
+  --border: rgba(255,255,255,.09);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background:
+    radial-gradient(ellipse at 15% 0%, rgba(0,229,138,.12), transparent 38%),
+    radial-gradient(ellipse at 100% 45%, rgba(49,199,255,.08), transparent 35%),
+    var(--bg);
+  color: var(--white);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none !important;
+}
+
+button {
+  font-family: inherit;
+}
+
+.container {
+  width: min(1080px, 92%);
+  margin: auto;
+}
+
+/* NAVBAR */
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(5,10,16,.88);
+  backdrop-filter: blur(18px);
+  border-bottom: 1px solid var(--border);
+}
+
+.nav-inner {
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.brand {
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: -.6px;
+}
+
+.brand span {
+  color: var(--green);
+}
+
+.nav-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 19px;
+  border: 1px solid rgba(0,229,138,.5);
+  border-radius: 10px;
+  color: var(--green);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .5px;
+  transition: .25s;
+}
+
+.nav-btn:hover {
+  background: var(--green);
+  color: #00170e;
+}
+
+/* HERO */
+
+.hero {
+  text-align: center;
+  padding: 65px 0 30px;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 9px 17px;
+  background: rgba(0,229,138,.08);
+  border: 1px solid rgba(0,229,138,.25);
+  border-radius: 50px;
+  color: var(--green);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.tag-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--green);
+  box-shadow: 0 0 12px var(--green);
+}
+
+.profile-area {
+  margin: 30px auto 25px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.profile-ring {
+  width: 165px;
+  height: 165px;
+  padding: 5px;
+  border-radius: 50%;
+  background: linear-gradient(140deg,var(--green),var(--cyan),var(--green));
+  box-shadow: 0 0 35px rgba(0,229,138,.2);
+}
+
+.profile-inner {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  background: var(--bg);
+  border-radius: 50%;
+}
+
+.profile-inner img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.profile-label {
+  position: absolute;
+  bottom: 5px;
+  left: calc(50% + 48px);
+  background: #0c1c19;
+  border: 1px solid rgba(0,229,138,.4);
+  color: var(--green);
+  padding: 6px 12px;
+  border-radius: 30px;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .7px;
+}
+
+.hero h1 {
+  font-size: clamp(39px, 8vw, 78px);
+  line-height: 1.08;
+  font-weight: 900;
+  letter-spacing: -3px;
+  margin: 15px 0;
+}
+
+.hero h1 span {
+  color: var(--green);
+}
+
+.hero h1 .outline {
+  color: transparent;
+  -webkit-text-stroke: 1.5px #b6c2ce;
+}
+
+.hero-description {
+  max-width: 620px;
+  margin: 0 auto;
+  color: var(--muted);
+  font-size: 15px;
+  padding: 0 10px;
+}
+
+/* BUTTONS */
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+  flex-wrap: wrap;
+  margin: 28px auto 0;
+}
+
+.btn {
+  min-height: 55px;
+  padding: 15px 27px;
+  border-radius: 12px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+  font-size: 15px;
+  font-weight: 800;
+  transition: .25s ease;
+  border: 1px solid transparent;
+}
+
+.btn-primary {
+  background: linear-gradient(110deg,#00e58a,#6affbb);
+  color: #03150c;
+  box-shadow: 0 8px 28px rgba(0,229,138,.19);
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 35px rgba(0,229,138,.3);
+}
+
+.btn-secondary {
+  background: rgba(255,255,255,.04);
+  border-color: var(--border);
+  color: var(--white);
+}
+
+.btn-secondary:hover {
+  border-color: var(--green);
+  color: var(--green);
+}
+
+.telegram-icon {
+  font-size: 20px;
+}
+
+/* CHART */
+
+.chart-card {
+  max-width: 700px;
+  margin: 55px auto 0;
+  padding: 25px;
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  background: linear-gradient(145deg,#101d28,#09121b);
+  box-shadow: 0 20px 60px rgba(0,0,0,.2);
+}
+
+.chart-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.chart-caption {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  color: var(--muted);
+}
+
+.chart-top h2 {
+  font-size: 25px;
+  margin-top: 3px;
+}
+
+.chart-note {
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 3px;
+}
+
+.tabs {
+  display: flex;
+  gap: 4px;
+  background: rgba(255,255,255,.04);
+  padding: 4px;
+  border-radius: 9px;
+}
+
+.tabs button {
+  border: none;
+  background: transparent;
+  color: var(--muted);
+  padding: 7px 11px;
+  border-radius: 7px;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.tabs button.active {
+  background: rgba(0,229,138,.14);
+  color: var(--green);
+}
+
+.chart-status {
+  margin: 20px 0 8px;
+  color: var(--green);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.chart-svg {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+.chart-info {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.info-box {
+  padding: 13px 8px;
+  background: rgba(255,255,255,.035);
+  border: 1px solid var(--border);
+  border-radius: 11px;
+  text-align: center;
+}
+
+.info-box strong {
+  display: block;
+  font-size: 13px;
+  color: var(--green);
+}
+
+.info-box span {
+  font-size: 10px;
+  color: var(--muted);
+}
+
+/* LEARNING */
+
+.learning {
+  padding: 90px 0 55px;
+}
+
+.section-heading {
+  text-align: center;
+  max-width: 650px;
+  margin: 0 auto 38px;
+}
+
+.eyebrow {
+  color: var(--green);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.section-heading h2 {
+  font-size: clamp(30px,5vw,45px);
+  line-height: 1.2;
+  letter-spacing: -1.5px;
+  margin: 12px 0;
+}
+
+.section-heading p {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 17px;
+}
+
+.card {
+  padding: 27px 23px;
+  background: linear-gradient(145deg,#101c27,#0a121b);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  transition: .3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(0,229,138,.4);
+}
+
+.card-number {
+  font-size: 11px;
+  color: var(--green);
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.card-icon {
+  font-size: 32px;
+  margin: 18px 0 10px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 9px;
+}
+
+.card p {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+/* COMMUNITY */
+
+.community {
+  margin: 35px 0 45px;
+  padding: 55px 25px;
+  text-align: center;
+  border: 1px solid rgba(0,229,138,.2);
+  border-radius: 23px;
+  background:
+    radial-gradient(ellipse at 50% 0%,rgba(0,229,138,.13),transparent 65%),
+    #0b141e;
+}
+
+.community h2 {
+  font-size: clamp(29px,5vw,45px);
+  line-height: 1.2;
+  margin: 12px 0;
+  letter-spacing: -1px;
+}
+
+.community p {
+  color: var(--muted);
+  max-width: 520px;
+  margin: 0 auto 25px;
+  font-size: 14px;
+}
+
+/* FOOTER */
+
+.disclaimer {
+  border-top: 1px solid var(--border);
+  padding: 22px 0;
+  font-size: 11px;
+  color: var(--muted);
+  line-height: 1.9;
+}
+
+.disclaimer strong {
+  color: #d8e1ea;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0 35px;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.ads-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  padding: 9px 18px;
+  border-radius: 30px;
+  border: 1px solid var(--border);
+  color: var(--white);
+  font-weight: 700;
+  transition: .25s;
+}
+
+.ads-link:hover {
+  border-color: var(--green);
+  color: var(--green);
+}
+
+/* MOBILE DESIGN */
+
+@media(max-width:700px) {
+
+  .container {
+    width: 91%;
+  }
+
+  .nav-inner {
+    min-height: 62px;
+  }
+
+  .brand {
+    font-size: 15px;
+  }
+
+  .nav-btn {
+    padding: 9px 12px;
+    font-size: 10px;
+  }
+
+  .hero {
+    padding-top: 42px;
+  }
+
+  .profile-ring {
+    width: 145px;
+    height: 145px;
+  }
+
+  .hero h1 {
+    font-size: clamp(39px,10vw,58px);
+    letter-spacing: -2px;
+  }
+
+  .hero-description {
+    font-size: 13px;
+    line-height: 1.8;
+  }
+
+  .buttons {
+    flex-direction: column;
+    width: 100%;
+    gap: 11px;
+    padding: 0 5px;
+    margin-top: 23px;
+  }
+
+  .btn {
+    width: 100%;
+    min-height: 57px;
+    font-size: 15px;
+  }
+
+  .chart-card {
+    margin-top: 38px;
+    padding: 18px 13px;
+    border-radius: 17px;
+  }
+
+  .chart-top h2 {
+    font-size: 21px;
+  }
+
+  .tabs button {
+    padding: 7px 9px;
+  }
+
+  .chart-info {
+    gap: 6px;
+  }
+
+  .info-box {
+    padding: 11px 4px;
+  }
+
+  .info-box strong {
+    font-size: 11px;
+  }
+
+  .info-box span {
+    font-size: 9px;
+  }
+
+  .learning {
+    padding-top: 65px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+    gap: 13px;
+  }
+
+  .card {
+    padding: 23px;
+  }
+
+  .community {
+    padding: 42px 17px;
+  }
+
+  .disclaimer {
+    font-size: 10px;
+  }
+}
+
+@media(prefers-reduced-motion:reduce) {
+  *,*::before,*::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+</style>
 </head>
+
 <body>
-<nav>
- <div class="wrap">
-  <span class="logo">Trade with <span>Gautam Jhaa</span>🫆</span>
-  <a class="nav-btn" href="https://t.me/+O6UFPK9TEuhkNjVl">JOIN TELEGRAM</a>
- </div>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="container nav-inner">
+
+    <div class="brand">
+      TRADE WITH <span>GAUTAM JHAA</span>
+    </div>
+
+    <a class="nav-btn"
+       href="https://t.me/+Q1qoKta6TjFmYjU9"
+       target="_blank"
+       rel="noopener">
+       JOIN TELEGRAM ↗
+    </a>
+
+  </div>
 </nav>
 
-<main class="wrap">
- <header class="hero">
-  <span class="badge"><i class="dot"></i>MARKET EDUCATION</span>
+<main class="container">
 
-  <div class="pic-row">
-   <div class="ring"><div class="ring-in"><img src="profile.jpg" alt="Gautam Jhaa"></div></div>
-   <span class="live"><i class="dot"></i>LIVE</span>
+<!-- HERO -->
+<section class="hero">
+
+  <div class="tag">
+    <span class="tag-dot"></span>
+    STOCK MARKET EDUCATION
   </div>
 
-  <h1>Trade <span class="g">With</span><br>Gautam <span class="o">Jhaa</span>🫆</h1>
-  <p class="lead">Market insights, trading concepts and practical learning designed to help you understand the market with a clear and disciplined approach.</p>
+  <div class="profile-area">
 
-  <div class="cta">
-   <a class="btn primary" href="https://t.me/+O6UFPK9TEuhkNjVl"><span class="plane">✈</span> Join Telegram</a>
-   <a class="btn ghost" href="#learn">Explore More ↓</a>
-  </div>
-
-  <div class="chart" aria-label="Market movement chart">
-   <div class="chart-row">
-    <div><small>MARKET / ANALYSIS</small><h2>LIVE MARKET</h2></div>
-    <div class="tabs" id="tabs">
-     <button data-r="0">1D</button><button class="on" data-r="1">1W</button><button data-r="2">1M</button><button data-r="3">1Y</button>
+    <div class="profile-ring">
+      <div class="profile-inner">
+        <img
+          src="https://gutamjha.vercel.app/profile.jpg"
+          alt="Gautam Jhaa"
+          onerror="this.onerror=null;this.src='profile.jpg';">
+      </div>
     </div>
-   </div>
-   <div class="up">▲ Market Movement</div>
-   <svg viewBox="0 0 400 180" preserveAspectRatio="none">
-    <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#00e676" stop-opacity=".35"/><stop offset="1" stop-color="#00e676" stop-opacity="0"/></linearGradient></defs>
-    <path id="area" fill="url(#g)"/>
-    <path id="line" fill="none" stroke="#00e676" stroke-width="2.5" stroke-linejoin="round"/>
-   </svg>
-   <div class="pts">
-    <div><b>01</b>Market Mindset</div>
-    <div><b>02</b>Technical Analysis</div>
-    <div><b>03</b>Trading Discipline</div>
-   </div>
-  </div>
- </header>
 
- <section class="learn" id="learn">
-  <div class="head">
-   <div class="eyebrow">WHAT YOU GET</div>
-   <h2>Understand the market.<br>Build your strategy.</h2>
-   <p>Focus on learning the fundamentals, reading market structure and developing a disciplined trading process.</p>
+    <span class="profile-label">● EDUCATION</span>
+
   </div>
+
+  <h1>
+    TRADE WITH<br>
+    <span>GAUTAM</span>
+    <span class="outline">JHAA</span>
+  </h1>
+
+  <p class="hero-description">
+    Explore stock market insights, technical analysis,
+    trading concepts and practical market education
+    with a focus on learning and discipline.
+  </p>
+
+  <div class="buttons">
+
+    <a class="btn btn-primary"
+       href="https://t.me/+Q1qoKta6TjFmYjU9"
+       target="_blank"
+       rel="noopener">
+       <span class="telegram-icon">✈</span>
+       JOIN TELEGRAM COMMUNITY
+    </a>
+
+    <a class="btn btn-secondary" href="#learn">
+       EXPLORE MORE ↓
+    </a>
+
+  </div>
+
+</section>
+
+<!-- CHART -->
+<section class="chart-card">
+
+  <div class="chart-top">
+
+    <div>
+      <div class="chart-caption">MARKET LEARNING</div>
+      <h2>Market Analysis</h2>
+      <div class="chart-note">Illustrative chart • Not live market data</div>
+    </div>
+
+    <div class="tabs" id="tabs">
+      <button data-index="0">1D</button>
+      <button class="active" data-index="1">1W</button>
+      <button data-index="2">1M</button>
+      <button data-index="3">1Y</button>
+    </div>
+
+  </div>
+
+  <div class="chart-status">
+    ▲ Illustrative Price Movement
+  </div>
+
+  <svg class="chart-svg" viewBox="0 0 500 180"
+       preserveAspectRatio="none"
+       role="img"
+       aria-label="Illustrative market chart">
+
+    <defs>
+      <linearGradient id="chartGradient" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#00e58a" stop-opacity=".30"/>
+        <stop offset="100%" stop-color="#00e58a" stop-opacity="0"/>
+      </linearGradient>
+    </defs>
+
+    <g stroke="rgba(255,255,255,.07)" stroke-width="1">
+      <path d="M0 35 H500"/>
+      <path d="M0 75 H500"/>
+      <path d="M0 115 H500"/>
+      <path d="M0 155 H500"/>
+    </g>
+
+    <path id="area" fill="url(#chartGradient)"></path>
+
+    <path id="line"
+      fill="none"
+      stroke="#00e58a"
+      stroke-width="3"
+      stroke-linecap="round"
+      stroke-linejoin="round">
+    </path>
+
+  </svg>
+
+  <div class="chart-info">
+
+    <div class="info-box">
+      <strong>01</strong>
+      <span>Market Basics</span>
+    </div>
+
+    <div class="info-box">
+      <strong>02</strong>
+      <span>Technical Analysis</span>
+    </div>
+
+    <div class="info-box">
+      <strong>03</strong>
+      <span>Risk Awareness</span>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- LEARNING -->
+<section class="learning" id="learn">
+
+  <div class="section-heading">
+
+    <div class="eyebrow">WHAT YOU CAN EXPLORE</div>
+
+    <h2>
+      Learn The Market.<br>
+      Build Your Knowledge.
+    </h2>
+
+    <p>
+      Understand market fundamentals, chart concepts
+      and the importance of disciplined trading.
+    </p>
+
+  </div>
+
   <div class="cards">
-   <article class="card"><small>01 / FOUNDATION</small><div class="ic">📊</div><h3>Market Basics</h3><p>Learn how markets move, understand charts, price action and the basic concepts behind different market conditions.</p></article>
-   <article class="card"><small>02 / ANALYSIS</small><div class="ic">📈</div><h3>Smart Analysis</h3><p>Explore technical analysis, market structure, support and resistance, trends and other important chart-reading concepts.</p></article>
-   <article class="card"><small>03 / DISCIPLINE</small><div class="ic">🎯</div><h3>Trading Mindset</h3><p>Understand the importance of patience, risk management and maintaining discipline while studying financial markets.</p></article>
+
+    <article class="card">
+
+      <div class="card-number">01 / FOUNDATION</div>
+
+      <div class="card-icon">📊</div>
+
+      <h3>Market Basics</h3>
+
+      <p>
+        Explore market fundamentals, price movements,
+        charts and basic stock market concepts.
+      </p>
+
+    </article>
+
+    <article class="card">
+
+      <div class="card-number">02 / ANALYSIS</div>
+
+      <div class="card-icon">📈</div>
+
+      <h3>Technical Analysis</h3>
+
+      <p>
+        Learn about support, resistance, trends,
+        market structure and chart-reading concepts.
+      </p>
+
+    </article>
+
+    <article class="card">
+
+      <div class="card-number">03 / DISCIPLINE</div>
+
+      <div class="card-icon">🎯</div>
+
+      <h3>Trading Mindset</h3>
+
+      <p>
+        Understand patience, risk management,
+        planning and discipline in financial markets.
+      </p>
+
+    </article>
+
   </div>
-  <div class="swipe">← Swipe to explore →</div>
- </section>
 
- <section class="join">
-  <div class="eyebrow">JOIN THE COMMUNITY</div>
-  <h2>Stay Connected.<br>Keep Learning.</h2>
-  <p>Join the Telegram community for market-related educational content, updates and trading discussions.</p>
-  <a class="btn primary" href="https://t.me/+O6UFPK9TEuhkNjVl"><span class="plane">✈</span> Join Telegram</a>
- </section>
+</section>
 
- <p class="risk"><strong>Risk Disclosure:</strong> Trading and investing in financial markets involves risk. The information provided on this website is for educational and informational purposes only and should not be considered personalized financial advice or a guarantee of returns. Always conduct your own research and understand the risks before making any financial decision.</p>
+<!-- JOIN COMMUNITY -->
+<section class="community">
+
+  <div class="eyebrow">TELEGRAM COMMUNITY</div>
+
+  <h2>
+    Stay Connected.<br>
+    Keep Learning.
+  </h2>
+
+  <p>
+    Join the Telegram community to explore
+    market-related educational content,
+    updates and trading discussions.
+  </p>
+
+  <a class="btn btn-primary"
+     href="https://t.me/+Q1qoKta6TjFmYjU9"
+     target="_blank"
+     rel="noopener">
+     <span class="telegram-icon">✈</span>
+     JOIN TELEGRAM NOW
+  </a>
+
+</section>
+
+<!-- DISCLAIMER -->
+<div class="disclaimer">
+
+  <strong>IMPORTANT RISK DISCLOSURE:</strong>
+
+  Trading and investing in financial markets involves
+  substantial risk. The information provided on this
+  website is for educational and informational purposes
+  only and should not be considered personalized
+  financial advice or a guarantee of returns.
+
+  Always conduct your own research and understand
+  the risks before making any financial decision.
+
+</div>
+
 </main>
 
+<!-- FOOTER -->
 <footer>
- © 2026 Trade with Gautam Jhaa🫆<br>Educational Content • Market Learning<br>
- <a class="ads" href="https://t.me/Sameeradsagancy" target="_blank" rel="noopener">Ads By @Sameeradsagancy</a>
+
+  <div class="container">
+
+    <div>
+      © 2026 Trade with Gautam Jhaa
+    </div>
+
+    <div style="margin-top:5px">
+      Educational Content • Market Learning
+    </div>
+
+    <a class="ads-link"
+       href="https://t.me/Sameeradsagancy"
+       target="_blank"
+       rel="noopener">
+       ⚡ Ads By @Sameeradsagancy
+    </a>
+
+  </div>
+
 </footer>
 
+<!-- CHART SCRIPT -->
 <script>
-const sets=[
- [90,80,95,70,75,55,65,45,50,35,40,25],
- [120,105,110,90,100,70,80,60,65,45,50,30],
- [140,120,130,100,110,85,95,60,70,50,40,22],
- [165,150,155,130,120,125,95,85,70,55,40,18]
+
+const chartSets = [
+  [145,125,135,105,115,90,105,65,80,55,65,30],
+  [125,110,120,90,100,75,85,55,65,40,50,22],
+  [155,135,145,115,125,90,105,70,80,45,55,20],
+  [165,145,155,125,135,100,110,75,85,55,40,18]
 ];
-function draw(i){
- const d=sets[i],n=d.length-1;
- const p=d.map((y,k)=>(k*400/n).toFixed(1)+","+y).join(" L");
- const line=document.getElementById("line");
- line.setAttribute("d","M"+p);
- document.getElementById("area").setAttribute("d","M"+p+" L400,180 L0,180 Z");
- line.style.animation="none";line.getBoundingClientRect();line.style.animation="";
+
+function drawChart(index) {
+
+  const values = chartSets[index];
+  const total = values.length - 1;
+
+  const points = values.map((value,i) => {
+    const x = (i * 500 / total).toFixed(1);
+    return x + "," + value;
+  });
+
+  const linePath = "M" + points.join(" L");
+
+  document.getElementById("line")
+    .setAttribute("d",linePath);
+
+  document.getElementById("area")
+    .setAttribute(
+      "d",
+      linePath + " L500,180 L0,180 Z"
+    );
 }
-document.querySelectorAll("#tabs button").forEach(b=>b.onclick=()=>{
- document.querySelectorAll("#tabs button").forEach(x=>x.classList.remove("on"));
- b.classList.add("on");draw(+b.dataset.r);
+
+document.querySelectorAll("#tabs button").forEach(button => {
+
+  button.addEventListener("click", () => {
+
+    document.querySelectorAll("#tabs button")
+      .forEach(item => item.classList.remove("active"));
+
+    button.classList.add("active");
+
+    drawChart(Number(button.dataset.index));
+
+  });
+
 });
-draw(1);
+
+drawChart(1);
+
 </script>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '4604940916500328');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=4604940916500328&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
 </body>
 </html>
